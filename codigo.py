@@ -50,7 +50,7 @@ def insertion_sort(data):
             data[j + 1] = data[j]
             j -= 1
         data[j + 1] = key
-    print("A lista ordenanda com o InsertionSort: ")  
+    print("A lista ordenada com o InsertionSort: ")  
     return data
 #___________________________________________________________________________________________________   
 def selection_sort(data):
@@ -61,7 +61,7 @@ def selection_sort(data):
              if data[j] < data[min_index]:
                  min_index = j
         data[i], data[min_index] = data[min_index], data[i]
-    print("A lista ordenanda com o SelectionSort: ")  
+    print("A lista ordenada com o SelectionSort: ")  
     return data
 #___________________________________________________________________________________________________ 
 def quick_sort(data):
@@ -80,6 +80,6 @@ def bubble_sort(data):
         for j in range(n - 1 - i):
             if data[j] > data[j + 1]:
                 data[j], data[j + 1] = data[j + 1], data[j]
-    print("A lista ordenanda com o BubbleSort: ")            
+    print("A lista ordenada com o BubbleSort: ")            
     return data
 #___________________________________________________________________________________________________
